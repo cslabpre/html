@@ -1,2 +1,2 @@
-2025-10-06 14:15:55
-taskkill /F /IM "Chrome.exe"
+2025-10-06 14:16:51
+msg n word
