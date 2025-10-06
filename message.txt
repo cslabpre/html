@@ -1,11 +1,123 @@
-2025-10-06 15:24:45
-Command failed:
- SESSIONNAME       USERNAME                 ID  STATE   TYPE        DEVICE 
->services                                    0  Disc                        
- console                                    27  Conn                        
-                   astudent17               42  Disc                        
-                   astudent14               43  Disc                        
-                   astudent10               48  Disc                        
- 31c5ce94259d4...                        65536  Listen                      
- rdp-tcp                                 65537  Listen                      
- wms-tcp                                 65538  Listen                      
+2025-10-06 15:24:58
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          4 K
+System                           4 Services                   0        132 K
+smss.exe                       828 Services                   0        632 K
+csrss.exe                      940 Services                   0      2,432 K
+wininit.exe                   1016 Services                   0      1,568 K
+services.exe                   944 Services                   0     10,640 K
+lsass.exe                     1012 Services                   0     30,868 K
+svchost.exe                   1124 Services                   0     30,340 K
+svchost.exe                   1184 Services                   0     19,064 K
+svchost.exe                   1344 Services                   0    115,260 K
+svchost.exe                   1352 Services                   0    121,780 K
+svchost.exe                   1436 Services                   0     25,412 K
+svchost.exe                   1500 Services                   0     34,300 K
+svchost.exe                   1508 Services                   0     20,528 K
+svchost.exe                   1600 Services                   0     23,612 K
+svchost.exe                   1612 Services                   0      3,944 K
+VSSVC.exe                     1816 Services                   0      4,756 K
+svchost.exe                   1828 Services                   0    257,632 K
+WmsSelfHealingSvc.exe         2112 Services                   0      2,100 K
+WmsSvc.exe                    2120 Services                   0     15,172 K
+svchost.exe                   2656 Services                   0      3,044 K
+svchost.exe                   2816 Services                   0      9,088 K
+spoolsv.exe                   3152 Services                   0     21,856 K
+armsvc.exe                    3212 Services                   0      2,148 K
+bdredline.exe                 3260 Services                   0     10,248 K
+svchost.exe                   3268 Services                   0     21,040 K
+svchost.exe                   3280 Services                   0     18,564 K
+memcached.exe                 3292 Services                   0     12,704 K
+mosquitto.exe                 3300 Services                   0     15,144 K
+svchost.exe                   3400 Services                   0      4,396 K
+mysqld.exe                    3456 Services                   0     48,644 K
+svchost.exe                   3472 Services                   0      7,524 K
+httpd.exe                     3592 Services                   0     49,204 K
+dasHost.exe                   3600 Services                   0        184 K
+MsMpEng.exe                   3616 Services                   0    128,616 K
+svchost.exe                   5068 Services                   0      3,844 K
+httpd.exe                     3664 Services                   0     43,716 K
+unsecapp.exe                  5292 Services                   0      3,492 K
+WmiPrvSE.exe                  6084 Services                   0     25,548 K
+WmiPrvSE.exe                  6180 Services                   0      8,384 K
+svchost.exe                   6736 Services                   0      4,276 K
+mongod.exe                   11720 Services                   0     40,272 K
+msdtc.exe                    11552 Services                   0        980 K
+tomcat8.exe                   2508 Services                   0  1,157,996 K
+conhost.exe                   8652 Services                   0        692 K
+svchost.exe                  17308 Services                   0      3,356 K
+MpDefenderCoreService.exe     9972 Services                   0     10,984 K
+SearchIndexer.exe            36964 Services                   0     77,176 K
+csrss.exe                    29732 Console                   27        672 K
+winlogon.exe                 29904 Console                   27      1,816 K
+LogonUI.exe                  26912 Console                   27     44,196 K
+dwm.exe                      30656 Console                   27     18,540 K
+OSPPSVC.EXE                  28516 Services                   0      2,580 K
+MpDefenderCoreService.exe     8092 Services                   0      9,864 K
+csrss.exe                    21964                           42      6,296 K
+winlogon.exe                 17584                           42      4,556 K
+dwm.exe                      41612                           42     32,476 K
+WmsSessionAgent.exe          41092                           42      4,988 K
+rdpclip.exe                  15488                           42      7,444 K
+sihost.exe                   24712                           42     12,632 K
+taskhostw.exe                30216                           42      8,920 K
+explorer.exe                 25916                           42     46,788 K
+RuntimeBroker.exe            41348                           42     22,128 K
+ShellExperienceHost.exe      12932                           42      3,268 K
+jusched.exe                  23772                           42     12,884 K
+dllhost.exe                  27572                           42      5,140 K
+svchost.exe                  22344                           42      3,640 K
+AdobeCollabSync.exe         178628                           42      8,056 K
+AdobeCollabSync.exe         179624                           42     24,236 K
+csrss.exe                   184952                           43      8,600 K
+winlogon.exe                184996                           43      8,300 K
+dwm.exe                     185124                           43     43,700 K
+rdpclip.exe                 184516                           43     12,900 K
+WmsSessionAgent.exe         184424                           43     14,600 K
+sihost.exe                  184580                           43     21,132 K
+taskhostw.exe               184664                           43     18,120 K
+explorer.exe                161348                           43     78,204 K
+RuntimeBroker.exe           179024                           43     27,464 K
+ShellExperienceHost.exe     180008                           43     39,296 K
+SearchUI.exe                162912                           43     42,564 K
+jusched.exe                 186248                           43     16,252 K
+dllhost.exe                 181004                           42      8,048 K
+svchost.exe                 186712                           43     14,488 K
+AdobeCollabSync.exe          86832                           43     19,776 K
+AdobeCollabSync.exe          10908                           43     34,676 K
+dllhost.exe                  25380                           43      7,832 K
+SearchUI.exe                155328                           42     45,344 K
+LogonUI.exe                 160012                           42     45,060 K
+csrss.exe                   164260                           48      8,896 K
+winlogon.exe                155596                           48      8,320 K
+dwm.exe                     164396                           48     45,728 K
+rdpclip.exe                 156620                           48     12,888 K
+RuntimeBroker.exe           165768                           48     26,500 K
+WmsSessionAgent.exe         165496                           48     14,752 K
+sihost.exe                  165664                           48     21,532 K
+taskhostw.exe               151668                           48     18,060 K
+explorer.exe                166552                           48     79,688 K
+ShellExperienceHost.exe      31372                           48     54,860 K
+SearchUI.exe                156724                           48     45,540 K
+jusched.exe                 167236                           48     16,296 K
+svchost.exe                 161676                           48     14,516 K
+AdobeCollabSync.exe         165716                           48     19,348 K
+AdobeCollabSync.exe         164972                           48     34,016 K
+dllhost.exe                 176560                           48      7,812 K
+EPProtectedService.exe       34872 Services                   0     36,100 K
+EPIntegrationService.exe     50980 Services                   0     62,552 K
+EPSecurityService.exe        43504 Services                   0    442,260 K
+EPHost.exe                   13328 Services                   0     66,760 K
+EPConsole.exe                12020                           42    101,368 K
+EPConsole.exe               135176                           43    103,828 K
+EPConsole.exe                76996                           48    103,972 K
+EPUpdateService.exe          52116 Services                   0     39,452 K
+MpDefenderCoreService.exe   124028 Services                   0     18,280 K
+pyw.exe                     122736 Services                   0      7,768 K
+pythonw.exe                  41792 Services                   0     31,728 K
+WmiPrvSE.exe                166084 Services                   0      9,560 K
+cmd.exe                      45424 Services                   0      4,876 K
+conhost.exe                  59124 Services                   0      9,768 K
+tasklist.exe                157984 Services                   0     10,708 K
