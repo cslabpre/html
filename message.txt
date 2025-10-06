@@ -1,124 +1,30 @@
-2025-10-06 14:28:03
+2025-10-06 14:31:01
 
-Image Name                     PID Session Name        Session#    Mem Usage
-========================= ======== ================ =========== ============
-System Idle Process              0 Services                   0          4 K
-System                           4 Services                   0        132 K
-smss.exe                       828 Services                   0        648 K
-csrss.exe                      940 Services                   0      2,448 K
-wininit.exe                   1016 Services                   0      1,600 K
-services.exe                   944 Services                   0     10,728 K
-lsass.exe                     1012 Services                   0     31,204 K
-svchost.exe                   1124 Services                   0     30,740 K
-svchost.exe                   1184 Services                   0     19,172 K
-svchost.exe                   1344 Services                   0    134,568 K
-svchost.exe                   1352 Services                   0    131,836 K
-svchost.exe                   1436 Services                   0     28,596 K
-svchost.exe                   1500 Services                   0     36,140 K
-svchost.exe                   1508 Services                   0     20,588 K
-svchost.exe                   1600 Services                   0     23,780 K
-svchost.exe                   1612 Services                   0      3,944 K
-VSSVC.exe                     1816 Services                   0      4,804 K
-svchost.exe                   1828 Services                   0    257,700 K
-WmsSelfHealingSvc.exe         2112 Services                   0      2,104 K
-WmsSvc.exe                    2120 Services                   0     15,212 K
-svchost.exe                   2656 Services                   0      3,092 K
-svchost.exe                   2816 Services                   0      9,144 K
-spoolsv.exe                   3152 Services                   0     22,136 K
-armsvc.exe                    3212 Services                   0      2,148 K
-bdredline.exe                 3260 Services                   0     10,252 K
-svchost.exe                   3268 Services                   0     22,980 K
-svchost.exe                   3280 Services                   0     18,520 K
-memcached.exe                 3292 Services                   0     12,708 K
-mosquitto.exe                 3300 Services                   0     15,144 K
-svchost.exe                   3400 Services                   0      4,396 K
-mysqld.exe                    3456 Services                   0     48,680 K
-svchost.exe                   3472 Services                   0      7,532 K
-httpd.exe                     3592 Services                   0     49,204 K
-dasHost.exe                   3600 Services                   0        184 K
-MsMpEng.exe                   3616 Services                   0    128,644 K
-svchost.exe                   5068 Services                   0      3,840 K
-httpd.exe                     3664 Services                   0     43,716 K
-unsecapp.exe                  5292 Services                   0      3,492 K
-WmiPrvSE.exe                  6084 Services                   0     25,752 K
-WmiPrvSE.exe                  6180 Services                   0      8,620 K
-svchost.exe                   6736 Services                   0      4,276 K
-mongod.exe                   11720 Services                   0     41,104 K
-msdtc.exe                    11552 Services                   0        980 K
-tomcat8.exe                   2508 Services                   0  1,174,140 K
-conhost.exe                   8652 Services                   0        692 K
-svchost.exe                  17308 Services                   0      3,356 K
-MpDefenderCoreService.exe     9972 Services                   0     10,604 K
-SearchIndexer.exe            36964 Services                   0     78,760 K
-csrss.exe                    29732 Console                   27        688 K
-winlogon.exe                 29904 Console                   27      1,816 K
-LogonUI.exe                  26912 Console                   27     44,156 K
-dwm.exe                      30656 Console                   27     18,540 K
-OSPPSVC.EXE                  28516 Services                   0      2,580 K
-MpDefenderCoreService.exe     8092 Services                   0      9,868 K
-csrss.exe                    21964                           42      6,308 K
-winlogon.exe                 17584                           42      4,556 K
-dwm.exe                      41612                           42     32,476 K
-WmsSessionAgent.exe          41092                           42      4,960 K
-rdpclip.exe                  15488                           42      7,444 K
-sihost.exe                   24712                           42     12,632 K
-taskhostw.exe                30216                           42      8,916 K
-explorer.exe                 25916                           42     46,884 K
-RuntimeBroker.exe            41348                           42     22,128 K
-ShellExperienceHost.exe      12932                           42      3,268 K
-jusched.exe                  23772                           42     12,884 K
-dllhost.exe                  27572                           42      5,140 K
-svchost.exe                  22344                           42      3,640 K
-AdobeCollabSync.exe         178628                           42      8,056 K
-AdobeCollabSync.exe         179624                           42     24,332 K
-csrss.exe                   184952                           43      8,612 K
-winlogon.exe                184996                           43      8,300 K
-dwm.exe                     185124                           43     43,692 K
-rdpclip.exe                 184516                           43     12,900 K
-WmsSessionAgent.exe         184424                           43     14,572 K
-sihost.exe                  184580                           43     21,132 K
-taskhostw.exe               184664                           43     18,116 K
-explorer.exe                161348                           43     78,184 K
-RuntimeBroker.exe           179024                           43     27,464 K
-ShellExperienceHost.exe     180008                           43     39,296 K
-SearchUI.exe                162912                           43     42,560 K
-jusched.exe                 186248                           43     16,252 K
-dllhost.exe                 181004                           42      8,048 K
-svchost.exe                 186712                           43     14,488 K
-AdobeCollabSync.exe          86832                           43     19,776 K
-AdobeCollabSync.exe          10908                           43     34,716 K
-dllhost.exe                  25380                           43      7,832 K
-SearchUI.exe                155328                           42     45,344 K
-LogonUI.exe                 160012                           42     45,072 K
-csrss.exe                   164260                           48      8,900 K
-winlogon.exe                155596                           48      8,320 K
-dwm.exe                     164396                           48     45,744 K
-rdpclip.exe                 156620                           48     12,888 K
-RuntimeBroker.exe           165768                           48     26,500 K
-WmsSessionAgent.exe         165496                           48     14,720 K
-sihost.exe                  165664                           48     21,532 K
-taskhostw.exe               151668                           48     18,040 K
-explorer.exe                166552                           48     79,764 K
-ShellExperienceHost.exe      31372                           48     54,860 K
-SearchUI.exe                156724                           48     45,540 K
-jusched.exe                 167236                           48     16,296 K
-svchost.exe                 161676                           48     14,516 K
-AdobeCollabSync.exe         165716                           48     19,348 K
-AdobeCollabSync.exe         164972                           48     34,040 K
-dllhost.exe                 176560                           48      7,812 K
-EPProtectedService.exe       34872 Services                   0     36,200 K
-EPIntegrationService.exe     50980 Services                   0     62,452 K
-EPSecurityService.exe        43504 Services                   0    631,552 K
-EPHost.exe                   13328 Services                   0     66,700 K
-EPConsole.exe                12020                           42    100,728 K
-EPConsole.exe               135176                           43    103,136 K
-EPConsole.exe                76996                           48    103,284 K
-EPUpdateService.exe          52116 Services                   0     39,524 K
-MpDefenderCoreService.exe   124028 Services                   0     18,100 K
-pyw.exe                     122736 Services                   0      8,020 K
-pythonw.exe                  41792 Services                   0     32,204 K
-svchost.exe                 152452 Services                   0      9,804 K
-WmiPrvSE.exe                150544 Services                   0      9,660 K
-cmd.exe                     159344 Services                   0      4,880 K
-conhost.exe                 160896 Services                   0      9,776 K
-tasklist.exe                140964 Services                   0     10,684 K
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::7c3f:3c1e:6e02:2d14%13
+   IPv4 Address. . . . . . . . . . . : 192.168.149.254
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+
+Ethernet adapter Ethernet 2:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::5cff:5513:89b0:c9cb%12
+   IPv4 Address. . . . . . . . . . . : 192.168.153.105
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.153.254
+
+Tunnel adapter isatap.{DC7D8C3D-D126-41A1-99BE-07E39F1D6A54}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter isatap.{DA704E52-E556-4277-B34A-27BDCA037109}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
