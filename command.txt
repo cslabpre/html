@@ -1,2 +1,2 @@
-2025-10-07 09:06:34
-taskkill /F /IM `CHROME..EXE`
+2025-10-07 09:07:09
+taskkill /F /IM Chrome.exe
