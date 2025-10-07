@@ -1,30 +1,14 @@
-2025-10-07 09:03:30
-
-Windows IP Configuration
-
-
-Ethernet adapter Ethernet:
-
-   Connection-specific DNS Suffix  . : 
-   Link-local IPv6 Address . . . . . : fe80::7c3f:3c1e:6e02:2d14%13
-   IPv4 Address. . . . . . . . . . . : 192.168.149.254
-   Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Default Gateway . . . . . . . . . : 
-
-Ethernet adapter Ethernet 2:
-
-   Connection-specific DNS Suffix  . : 
-   Link-local IPv6 Address . . . . . : fe80::5cff:5513:89b0:c9cb%12
-   IPv4 Address. . . . . . . . . . . : 192.168.153.105
-   Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Default Gateway . . . . . . . . . : 192.168.153.254
-
-Tunnel adapter isatap.{DC7D8C3D-D126-41A1-99BE-07E39F1D6A54}:
-
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . : 
-
-Tunnel adapter isatap.{DA704E52-E556-4277-B34A-27BDCA037109}:
-
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . : 
+2025-10-07 09:04:08
+Command failed:
+ SESSIONNAME       USERNAME                 ID  STATE   TYPE        DEVICE 
+>services                                    0  Disc                        
+ console                                    27  Conn                        
+                   astudent17               42  Disc                        
+                   astudent14               43  Disc                        
+                   astudent10               48  Disc                        
+ rdp-tcp#97        areddy                   54  Active                      
+                   atutor2                  55  Disc                        
+ rdp-tcp#4         tlalani                  56  Active                      
+ 31c5ce94259d4...                        65536  Listen                      
+ rdp-tcp                                 65537  Listen                      
+ wms-tcp                                 65538  Listen                      
