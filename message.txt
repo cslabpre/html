@@ -1,1 +1,13 @@
-2025-10-07 09:08:01
+2025-10-07 09:48:14
+Command failed:
+ SESSIONNAME       USERNAME                 ID  STATE   TYPE        DEVICE 
+>services                                    0  Disc                        
+ console                                    27  Conn                        
+                   astudent17               42  Disc                        
+                   astudent14               43  Disc                        
+                   astudent10               48  Disc                        
+                   asood                    59  Disc                        
+                   sbomma                   60  Disc                        
+ 31c5ce94259d4...                        65536  Listen                      
+ rdp-tcp                                 65537  Listen                      
+ wms-tcp                                 65538  Listen                      
