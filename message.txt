@@ -1,140 +1,100 @@
-2025-10-29 11:47:46
+2025-10-29 11:48:41
+Command failed:
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKPART       Displays or configures Disk Partition properties.
+DOSKEY         Edits command lines, recalls Windows commands, and 
+               creates macros.
+DRIVERQUERY    Displays current device driver status and properties.
+ECHO           Displays messages, or turns command echoing on or off.
+ENDLOCAL       Ends localization of environment changes in a batch file.
+ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the 
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file extension 
+               associations.
+GOTO           Directs the Windows command interpreter to a labeled line in 
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in 
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for files and 
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MKLINK         Creates Symbolic Links and Hard Links
+MODE           Configures a system device.
+MORE           Displays output one screen at a time.
+MOVE           Moves one or more files from one directory to another 
+               directory.
+OPENFILES      Displays files opened by remote users for a file share.
+PATH           Displays or sets a search path for executable files.
+PAUSE          Suspends processing of a batch file and displays a message.
+POPD           Restores the previous value of the current directory saved by 
+               PUSHD.
+PRINT          Prints a text file.
+PROMPT         Changes the Windows command prompt.
+PUSHD          Saves the current directory then changes it.
+RD             Removes a directory.
+RECOVER        Recovers readable information from a bad or defective disk.
+REM            Records comments (remarks) in batch files or CONFIG.SYS.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+REPLACE        Replaces files.
+RMDIR          Removes a directory.
+ROBOCOPY       Advanced utility to copy files and directory trees
+SET            Displays, sets, or removes Windows environment variables.
+SETLOCAL       Begins localization of environment changes in a batch file.
+SC             Displays or configures services (background processes).
+SCHTASKS       Schedules commands and programs to run on a computer.
+SHIFT          Shifts the position of replaceable parameters in batch files.
+SHUTDOWN       Allows proper local or remote shutdown of machine.
+SORT           Sorts input.
+START          Starts a separate window to run a specified program or command.
+SUBST          Associates a path with a drive letter.
+SYSTEMINFO     Displays machine specific properties and configuration.
+TASKLIST       Displays all currently running tasks including services.
+TASKKILL       Kill or stop a running process or application.
+TIME           Displays or sets the system time.
+TITLE          Sets the window title for a CMD.EXE session.
+TREE           Graphically displays the directory structure of a drive or 
+               path.
+TYPE           Displays the contents of a text file.
+VER            Displays the Windows version.
+VERIFY         Tells Windows whether to verify that your files are written
+               correctly to a disk.
+VOL            Displays a disk volume label and serial number.
+XCOPY          Copies files and directory trees.
+WMIC           Displays WMI information inside interactive command shell.
 
-Image Name                     PID Session Name        Session#    Mem Usage
-========================= ======== ================ =========== ============
-System Idle Process              0 Services                   0          4 K
-System                           4 Services                   0        140 K
-smss.exe                       824 Services                   0      1,280 K
-csrss.exe                      940 Services                   0      4,780 K
-wininit.exe                   1016 Services                   0      5,120 K
-csrss.exe                      108 Console                    1      4,108 K
-winlogon.exe                   604 Console                    1      8,908 K
-services.exe                   944 Services                   0     12,468 K
-lsass.exe                     1012 Services                   0     39,608 K
-svchost.exe                   1128 Services                   0     43,084 K
-svchost.exe                   1188 Services                   0     23,872 K
-svchost.exe                   1336 Services                   0    139,464 K
-svchost.exe                   1344 Services                   0    103,340 K
-svchost.exe                   1428 Services                   0     38,376 K
-svchost.exe                   1448 Services                   0     41,572 K
-svchost.exe                   1456 Services                   0     40,380 K
-dwm.exe                       1556 Console                    1     30,776 K
-svchost.exe                   1572 Services                   0     30,480 K
-svchost.exe                   1632 Services                   0     10,140 K
-VSSVC.exe                     1860 Services                   0      9,028 K
-svchost.exe                   1880 Services                   0    292,732 K
-WmsSelfHealingSvc.exe         2192 Services                   0     14,332 K
-WmsSvc.exe                    2204 Services                   0     27,872 K
-svchost.exe                   2700 Services                   0      7,348 K
-svchost.exe                   2872 Services                   0     14,904 K
-spoolsv.exe                   3124 Services                   0     30,216 K
-memcached.exe                 3188 Services                   0     13,256 K
-mosquitto.exe                 3216 Services                   0     15,680 K
-EPUpdateService.exe           3228 Services                   0     43,748 K
-armsvc.exe                    3240 Services                   0      6,216 K
-EPProtectedService.exe        3248 Services                   0     36,744 K
-httpd.exe                     3264 Services                   0     69,944 K
-EPIntegrationService.exe      3348 Services                   0     70,988 K
-svchost.exe                   3372 Services                   0      8,584 K
-mysqld.exe                    3416 Services                   0    104,880 K
-EPSecurityService.exe         3424 Services                   0    605,084 K
-svchost.exe                   3520 Services                   0     16,644 K
-svchost.exe                   3552 Services                   0     32,308 K
-svchost.exe                   3576 Services                   0     26,676 K
-bdredline.exe                 3700 Services                   0     15,400 K
-httpd.exe                     5008 Services                   0     60,208 K
-svchost.exe                   5040 Services                   0      8,104 K
-unsecapp.exe                  5928 Services                   0      6,676 K
-WmiPrvSE.exe                  6020 Services                   0     26,408 K
-svchost.exe                   6428 Services                   0     24,172 K
-EPHost.exe                    5680 Services                   0     66,780 K
-WmiPrvSE.exe                   104 Services                   0     11,956 K
-mongod.exe                    4072 Services                   0     54,344 K
-msdtc.exe                      888 Services                   0     13,624 K
-SearchIndexer.exe             7304 Services                   0     88,032 K
-tomcat8.exe                   7400 Services                   0  1,356,200 K
-conhost.exe                   7420 Services                   0      5,524 K
-EPConsole.exe                 7796 Console                    1     93,752 K
-sihost.exe                    8012 Console                    1     17,852 K
-taskhostw.exe                 8060 Console                    1     17,264 K
-WmsShell.exe                  6072 Console                    1     40,428 K
-svchost.exe                   9036 Console                    1     14,544 K
-svchost.exe                   7108 Services                   0      9,876 K
-dllhost.exe                   2248 Console                    1      7,712 K
-csrss.exe                     9156                            2     12,592 K
-winlogon.exe                  8980                            2      8,276 K
-dwm.exe                       3200                            2     52,784 K
-rdpclip.exe                   1504                            2     13,864 K
-RuntimeBroker.exe             4924                            2     37,180 K
-EPConsole.exe                 4288                            2    103,092 K
-sihost.exe                    5888                            2     22,752 K
-WmsSessionAgent.exe           7988                            2     15,588 K
-taskhostw.exe                 6284                            2     19,228 K
-explorer.exe                  6536                            2    123,600 K
-ShellExperienceHost.exe       9120                            2     74,716 K
-jusched.exe                   9632                            2     20,036 K
-svchost.exe                  13264                            2     21,476 K
-csrss.exe                    10900                            4      5,608 K
-EPConsole.exe                 3204                            4    102,000 K
-AdobeCollabSync.exe          25204                            2      5,908 K
-AdobeCollabSync.exe          21276                            2     21,692 K
-dllhost.exe                  24932                            2      8,340 K
-dasHost.exe                  31780 Services                   0      5,988 K
-AdobeCollabSync.exe          20060 Console                    1      6,408 K
-AdobeCollabSync.exe          28752 Console                    1     21,956 K
-jucheck.exe                  21660                            2     18,568 K
-dllhost.exe                  18848                            2     12,904 K
-MpDefenderCoreService.exe    30912 Services                   0     16,496 K
-MsMpEng.exe                  26032 Services                   0    138,332 K
-dasHost.exe                  21312 Services                   0      7,340 K
-MpDefenderCoreService.exe    26044 Services                   0     18,580 K
-csrss.exe                    33680                           19      4,568 K
-EPConsole.exe                23308                           19     96,412 K
-pythonw.exe                  24424                            2     64,480 K
-csrss.exe                    44616                           22     13,420 K
-winlogon.exe                 30100                           22      8,464 K
-dwm.exe                      46076                           22     51,964 K
-rdpclip.exe                  30392                           22     13,292 K
-EPConsole.exe                32628                           22    102,108 K
-RuntimeBroker.exe            27112                           22     35,780 K
-WmsSessionAgent.exe          37224                           22     16,420 K
-sihost.exe                   44804                           22     22,524 K
-taskhostw.exe                26548                           22     18,940 K
-explorer.exe                 44540                           22    109,556 K
-ShellExperienceHost.exe      38840                           22     76,388 K
-SearchUI.exe                 17940                           22    114,632 K
-jusched.exe                  26892                           22     19,256 K
-svchost.exe                  36304                           22     15,100 K
-jucheck.exe                  15064                           22     18,176 K
-AdobeCollabSync.exe          21240                           22     19,536 K
-AdobeCollabSync.exe          16072                           22     32,556 K
-dllhost.exe                   9620                           22      7,912 K
-SearchUI.exe                 38168                            2     46,548 K
-csrss.exe                    35568 RDP-Tcp#37                24      6,604 K
-winlogon.exe                 20212 RDP-Tcp#37                24      8,496 K
-dwm.exe                      29456 RDP-Tcp#37                24     39,360 K
-rdpclip.exe                  23940 RDP-Tcp#37                24     13,236 K
-RuntimeBroker.exe            41756 RDP-Tcp#37                24     26,756 K
-EPConsole.exe                41368 RDP-Tcp#37                24     56,044 K
-sihost.exe                   27996 RDP-Tcp#37                24     21,888 K
-WmsSessionAgent.exe          45852 RDP-Tcp#37                24     21,540 K
-taskhostw.exe                42608 RDP-Tcp#37                24     18,364 K
-explorer.exe                 31844 RDP-Tcp#37                24     87,232 K
-ShellExperienceHost.exe      26092 RDP-Tcp#37                24     57,736 K
-SearchUI.exe                 17232 RDP-Tcp#37                24     47,912 K
-jusched.exe                  32320 RDP-Tcp#37                24     14,620 K
-svchost.exe                  14668 RDP-Tcp#37                24     15,544 K
-jucheck.exe                  21588 RDP-Tcp#37                24     18,680 K
-AdobeCollabSync.exe          40672 RDP-Tcp#37                24     18,520 K
-AdobeCollabSync.exe          16844 RDP-Tcp#37                24     30,932 K
-dllhost.exe                  33052 RDP-Tcp#37                24      8,024 K
-csrss.exe                    33612                           33      8,480 K
-EPConsole.exe                27560                           33     49,868 K
-dllhost.exe                  17792                           22     13,864 K
-pythonw.exe                  30064                           22     70,128 K
-pythonw.exe                  22188                           22     26,416 K
-pyw.exe                      28556 Services                   0      7,788 K
-pythonw.exe                  14832 Services                   0     31,592 K
-cmd.exe                      15468 Services                   0      4,860 K
-conhost.exe                  45192 Services                   0      9,772 K
-tasklist.exe                 12380 Services                   0     10,700 K
+For more information on tools see the command-line reference in the online help.
