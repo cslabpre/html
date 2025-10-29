@@ -1,8 +1,2 @@
-2025-10-14 09:37:47
-Command failed:
- SESSIONNAME       USERNAME                 ID  STATE   TYPE        DEVICE 
->services                                    0  Disc                        
- console           WmsShell                  1  Active                      
- 31c5ce94259d4...                        65536  Listen                      
- rdp-tcp                                 65537  Listen                      
- wms-tcp                                 65538  Listen                      
+2025-10-29 11:44:13
+premier-sri\atutor2
